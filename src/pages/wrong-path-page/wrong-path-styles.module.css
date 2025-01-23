@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(33, 29, 29);
+    font-family: sans-serif, Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.errorTitle {
+    color: rgb(243, 234, 234);
+    font-family: inherit;
+    
+}
