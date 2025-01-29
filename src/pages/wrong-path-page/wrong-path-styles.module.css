@@ -4,10 +4,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 .errorTitle {
     color: rgb(243, 234, 234);
     font-family: inherit;
-    
 }

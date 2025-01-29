@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.gridGlobalContainer{
+    background-color: var(--clr-global-background);
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif, Arial;
+    display: grid;
+    grid-template-rows: 2fr 1fr 5fr;
+    grid-template-columns: repeat(8, 1fr);
+    min-height: 0;
+        /* Ensure grid rows shrink properly */
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+    border-radius: 15px;
+    box-shadow: -2px 2px 0 #56D364;
+    color: var(--clr-regular-grey-text);
+    background-color: var(--clr-textbox-background);
+    font: italic 150 6vw "Inter", "sans-serif";
+    text-align: center;
+    grid-row: 1 / 2;
+    grid-column: 3 / 7;
+}
+
+.slogan {
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+    padding-left: 15%;
+    color: var(--clr-regular-grey-text);
+    border-bottom: solid 1px var(--clr-regular-grey-text);
+    font: italic 150 3vw "Inter", "sans-serif";
+    grid-row: 2 / 3;
+    grid-column: 1 / 6;
+}
+
+.loginSuggestion {
+   grid-row: 3 / 4;
+   grid-column: 3 / 7;
+   background-color: var(--clr-textbox-background);
+   border-radius: 15px;
+   display: grid;
+   grid-template-rows: 1fr 3fr;
+   grid-template-columns: 5fr 1fr 5fr;
+   justify-items: center;
+   min-height: 0;
+}
+
+.loginHeader {
+    grid-row: 1 / 2;
+    grid-column: 1 / -1;
+    color: var(--clr-white);
+    align-content: center;
+    justify-content: center;
+    
+    font: italic 150 4vw "Inter", "sans-serif";
+}
+
+.loginButton {
+    width: 70%;
+    height: 50%;
+    align-self: center;
+    justify-self: center;
+}
+
+.signUpButton {
+    width: 70%;
+    height: 50%;
+    align-self: center;
+    justify-self: center;
+}
+
+.orText {
+    align-self: center;
+    justify-self: center;
+    color: var(--clr-white);
+}

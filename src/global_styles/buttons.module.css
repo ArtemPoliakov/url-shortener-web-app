@@ -1,0 +1,31 @@
+:root {
+  --clr-background-primary: #006222;
+  --clr-border-primary: #1b913c;
+  --clr-hover-primary: #00772a;
+
+  --clr-background-secondary: #262c36;
+  --clr-border-secondary: #5c626c;
+  --clr-hover-secondary: #353d4a;
+}
+
+.primary {
+  background-color: var(--clr-background-primary);
+  border: solid 1px var(--clr-border-primary);
+  border-radius: 15px;
+  color: var(--clr-white);
+
+  &:hover {
+    background-color: var(--clr-hover-primary);
+  }
+}
+
+.secondary {
+    background-color: var(--clr-background-secondary);
+    border: solid 1px var(--clr-border-secondary);
+    border-radius: 15px;
+    color: var(--clr-white);
+
+    &:hover {
+        background-color: var(--clr-hover-secondary);
+      }
+}
